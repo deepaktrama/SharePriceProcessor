@@ -1,5 +1,5 @@
 # -------------------------------------------------------------------------------
-# Name:        module1
+# Name:        SharePriceProcessorTests
 # Author:      Deepak Trama
 #
 # Created:     15/10/2014
