@@ -53,7 +53,7 @@ class SharePriceProcessorTests(unittest.TestCase):
         self.assertItemsEqual(results['Company-D'], [289, 1990, 'Jan'])
         self.assertItemsEqual(results['Company-E'], [649, 1990, 'Jan'])
 
-    # Test case written for Csv file emailed by IndieComm / Manjunath Hegde to me at deepak.trama@gmail.com
+    # Test case written for a sample Csv attached with the code
     def testWithCsvFile(self):
         csvProcessor = SharePriceProcessorCsvFile()
         results = csvProcessor.getMaxSharePrices('test_shares_data.csv')
